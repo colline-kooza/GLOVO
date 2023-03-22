@@ -1,0 +1,56 @@
+.section6{
+    display: flex;
+    gap: 3rem;
+    background-color: #e9f8f5;
+    margin-top: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card-holder{
+        display: flex;
+        // flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+        padding:2rem 9rem;
+    }
+    img{
+        width: 200px;
+    }
+    div{
+        padding: 30px;
+    }
+    span{
+        background: #fbbe42;
+        border-radius: 10%;
+    }
+    button{
+        padding: 10px 60px;
+        margin-top: 20px;
+        border: none;
+        color: aliceblue;
+        border-radius: 30px;
+        background: #00a082;
+
+    }
+
+    @media(max-width:400px){
+        .section6{
+            display: flex;
+            margin-top: 1rem;
+
+        }
+        .card-holder{
+            margin: 0;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+        }
+    }
+
+
+
+}
