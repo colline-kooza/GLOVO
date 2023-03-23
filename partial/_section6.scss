@@ -1,8 +1,10 @@
 .section6{
     display: flex;
     gap: 3rem;
+    padding: 40px 0;
     background-color: #e9f8f5;
-    margin-top: 10rem;
+    // background-color: #fbbe42;
+    // margin-top: 4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -49,7 +51,7 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            padding: 0;
+            padding: 10px;
         }
     }
 

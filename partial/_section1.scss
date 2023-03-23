@@ -35,9 +35,7 @@
 @media(max-width:400px){
    .section1{
     display: flex;
-    width: 100%;
-
-    // flex-direction: column;
+    width: 100vw;
     width: 100%;
     flex-wrap: wrap;
     padding: 5rem 2rem;

@@ -59,6 +59,7 @@ header button {
     margin-top: 30px;
   }
   .card1 {
+    width: 100%;
     display: none;
     display: flex;
     gap: 50px;
@@ -118,6 +119,7 @@ header button {
 @media (max-width: 400px) {
   .section1 {
     display: flex;
+    width: 100vw;
     width: 100%;
     flex-wrap: wrap;
     padding: 5rem 2rem;
@@ -232,19 +234,13 @@ header button {
     display: flex;
     flex-direction: column;
   }
-  .section5 .div-text {
-    margin: 0;
-  }
-  .section5 .div-img {
-    margin: 0;
-  }
 }
 
 .section6 {
   display: flex;
   gap: 3rem;
+  padding: 40px 0;
   background-color: #e9f8f5;
-  margin-top: 10rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -277,6 +273,7 @@ header button {
 @media (max-width: 400px) {
   .section6 .section6 {
     display: flex;
+    width: 100%;
     margin-top: 1rem;
   }
   .section6 .card-holder {
@@ -286,14 +283,14 @@ header button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0;
+    padding: 10px;
   }
 }
 
 footer {
   display: flex;
   gap: 50px;
-  padding: 50px;
+  padding: 20px;
   background-color: #1d1d1d;
   justify-content: center;
   align-items: center;
@@ -328,6 +325,9 @@ footer .footer-3 {
 @media (max-width: 400px) {
   footer footer {
     display: flex;
+    gap: 10px;
+    padding: 50px;
+    width: 100%;
     flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
