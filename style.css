@@ -87,10 +87,15 @@ header button {
 .section1 {
   width: 100%;
   padding: 150px;
-  background: #ffc244;
+  background: url(../bcc.jpg);
+  background-size: contain;
 }
 .section1 h2 {
+  color: aliceblue;
   font-size: 0px;
+}
+.section1 p {
+  color: blanchedalmond;
 }
 .section1 .div1 {
   display: flex;

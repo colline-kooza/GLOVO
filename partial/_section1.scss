@@ -1,9 +1,14 @@
 .section1{
     width: 100%;
     padding: 150px;
-    background: #ffc244;
+    background:url(../bcc.jpg);
+    background-size:contain;
     h2{
+        color: aliceblue;
         font-size: 0px;
+    }
+    p{
+        color: blanchedalmond;
     }
     .div1{
         display: flex;
@@ -21,6 +26,7 @@
     }
     .div1 h2{
         font-size: 0px;
+        
     }
     img{
         width: 30%;
